@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#064a9c">
+<title>Trámites y apoyos | Pueblos y Comunidades Indígenas de Chihuahua</title>
+<style>
+@font-face{font-family:Poppins;src:url('assets/fonts/poppins-latin-400-normal.woff2')}@font-face{font-family:Poppins;src:url('assets/fonts/poppins-latin-600-normal.woff2');font-weight:600}@font-face{font-family:Poppins;src:url('assets/fonts/poppins-latin-700-normal.woff2');font-weight:700}
+:root{--blue:#064a9c;--navy:#073778;--purple:#7650ce;--purple2:#603cba;--ink:#18365b;--muted:#5b6c82;--line:#d9e5f4;--pale:#f1f6fd;--white:#fff;--shadow:0 10px 28px #173e7010}*{box-sizing:border-box}body{margin:0;background:#f5f8fc;color:var(--ink);font-family:Poppins,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}a{color:var(--blue)}.govbar{background:linear-gradient(90deg,#064a9c,#073778);color:#fff;padding:10px clamp(16px,3vw,42px);display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:13px}.govbar strong{font-weight:600}.govbar nav{display:flex;gap:18px;flex-wrap:wrap}.masthead{background:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px clamp(16px,3vw,42px);box-shadow:0 2px 10px #082e5c0c}.brand{display:flex;align-items:center;gap:18px;min-width:230px}.brand img{width:210px;max-height:60px;object-fit:contain}.brand-sep{height:45px;border-left:1px solid #b7c9e1}.brand-label{font-size:14px;line-height:1.35;font-weight:700;color:#064a9c;max-width:205px}.tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}.search{display:flex;border:1px solid #b8c6e5;border-radius:28px;overflow:hidden;background:#fff;min-width:min(350px,45vw)}.search input{border:0;outline:0;padding:12px 16px;width:100%;min-width:0}.search button,.purple-btn{background:var(--purple);color:#fff;border:0;padding:11px 18px;font-weight:600}.purple-btn{border-radius:25px}.hero{position:relative;min-height:250px;background:#064a9c center/cover no-repeat;color:#fff;overflow:hidden;display:flex;align-items:center}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#062d68ed 0%,#064a9cce 44%,#063c84a0 100%)}.hero-inner{position:relative;z-index:1;max-width:1450px;width:100%;margin:auto;padding:30px clamp(22px,5vw,76px);display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.09em;font-weight:700;opacity:.9}.hero h1{font-size:clamp(30px,4vw,48px);line-height:1.08;margin:7px 0 10px}.hero p{max-width:660px;line-height:1.6;margin:0}.hero-audio{display:flex;align-items:center;gap:14px;background:#ffffffed;color:#073778;border-radius:60px;padding:12px 20px 12px 12px;max-width:300px;font-weight:600}.speaker{border:0;border-radius:50%;width:58px;height:58px;background:var(--purple);color:white;font-size:28px;display:grid;place-items:center;box-shadow:0 4px 0 #4b2c9e;flex:0 0 auto}.hero-nav{position:absolute;z-index:2;bottom:16px;right:28px;display:flex;gap:8px;align-items:center}.hero-nav button{border:1px solid #ffffffa8;color:white;background:#ffffff26;border-radius:30px;padding:6px 11px}.hero-nav .dots{display:flex;gap:6px}.hero-nav .dots button{width:10px;height:10px;padding:0;border-radius:50%;background:#ffffff88}.hero-nav .dots button[aria-current=true]{background:#fff}.layout{max-width:1500px;margin:20px auto;padding:0 18px 42px;display:grid;grid-template-columns:310px minmax(0,1fr) 330px;gap:18px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow);overflow:hidden}.panel-heading{padding:17px 18px;background:linear-gradient(120deg,#6d49c7,#805cda);color:#fff}.panel-heading h2{margin:0;font-size:17px}.panel-heading p{font-size:12px;margin:4px 0 0;opacity:.94}.service-list{padding:8px;display:grid;gap:5px}.service{display:flex;gap:10px;align-items:center;text-align:left;width:100%;padding:11px;border:1px solid transparent;border-radius:9px;background:#fff;color:var(--ink)}.service:hover{background:#f4f1ff;border-color:#ded5ff}.service[aria-current=true]{background:#eee9ff;border-color:#d1c4ff;color:#432d98;box-shadow:inset 4px 0 var(--purple)}.service-icon{width:42px;height:42px;display:grid;place-items:center;background:#edf4ff;color:var(--blue);border-radius:11px;font-size:23px;flex:0 0 auto}.service[aria-current=true] .service-icon{background:var(--purple);color:#fff}.service strong{display:block;font-size:13px;line-height:1.35}.service small{display:block;color:var(--muted);font-size:11px;line-height:1.4;margin-top:3px;font-weight:400}.service[aria-current=true] small{color:#5a4b8e}.center{padding:20px}.crumb{font-size:12px;color:#6b7a8f;margin-bottom:16px}.service-head{display:grid;grid-template-columns:185px minmax(0,1fr);gap:20px;align-items:center}.illustration{height:165px;border-radius:16px;background:linear-gradient(145deg,#e1efff,#f5f0ff);display:grid;place-items:center;font-size:76px;border:1px solid #d6e5f8}.tag{display:inline-block;background:#eaf2ff;color:#064a9c;border-radius:20px;padding:5px 10px;font-size:11px;font-weight:700}.service-head h2{font-size:clamp(25px,2.4vw,34px);line-height:1.18;color:#064a9c;margin:9px 0 4px}.service-head h3{font-size:16px;color:var(--purple2);margin:0 0 10px}.service-head p{font-size:14px;line-height:1.65;margin:0;color:#3d5471}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.action{border:0;border-radius:25px;background:var(--purple);color:#fff;font-weight:600;font-size:13px;padding:11px 16px}.action.secondary{background:#fff;color:var(--blue);border:1px solid #b9cce7}.info-strip{display:flex;gap:12px;align-items:flex-start;margin:18px 0;padding:13px 15px;border:1px solid #bdd8fb;border-radius:10px;background:#f0f7ff}.info-strip .i{font-size:25px}.info-strip strong{display:block;font-size:13px;color:#064a9c}.info-strip p{margin:3px 0 0;font-size:12px;line-height:1.6}.section-title{font-size:20px;color:#064a9c;margin:22px 0 12px}.requirements{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.req-card{border:1px solid var(--line);border-radius:10px;padding:14px;background:linear-gradient(140deg,#fff,#f7faff);min-height:132px}.req-icon{font-size:27px;margin-bottom:7px}.req-card h4{margin:0 0 5px;color:#064a9c;font-size:13px}.req-card p{font-size:12px;line-height:1.55;color:#465d7a;margin:0}.guide-steps{display:grid;gap:10px}.step{display:grid;grid-template-columns:38px 42px 1fr;gap:10px;align-items:center;padding:12px;border:1px solid #e0e8f4;border-radius:10px;background:#fff}.step-num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--purple);color:#fff;font-weight:700}.step-art{font-size:27px}.step strong{font-size:13px;color:#064a9c}.step p{margin:3px 0 0;font-size:12px;line-height:1.5;color:#52647b}.warning{margin-top:16px;border-left:4px solid #e3ad36;background:#fff9e9;padding:13px 14px;border-radius:7px;font-size:12px;line-height:1.6;color:#634a12}.right-col{display:grid;gap:14px}.right-panel{padding:17px}.right-panel h2{margin:0 0 5px;color:#064a9c;font-size:17px}.right-panel>p{font-size:12px;line-height:1.55;color:var(--muted);margin:0 0 12px}.listen-select{width:100%;border:1px solid #cfc3fa;border-radius:8px;padding:10px;background:#f4f0ff;color:#463294;font-weight:600}.listen-options{display:grid;gap:0;margin-top:10px;border:1px solid var(--line);border-radius:9px;overflow:hidden}.listen-options button{border:0;border-bottom:1px solid #e6edf7;background:#fff;padding:11px 10px;text-align:left;color:#24446c;font-size:12px;display:flex;gap:9px;align-items:center}.listen-options button:last-child{border-bottom:0}.listen-options button:hover{background:#f5f2ff}.play{color:var(--purple);font-size:18px}.steps-panel{padding:17px}.steps-panel h2{font-size:17px;color:#064a9c;margin:0 0 12px}.mini-step{display:grid;grid-template-columns:31px 1fr;gap:9px;margin:12px 0;align-items:start}.mini-step b{width:29px;height:29px;display:grid;place-items:center;border-radius:50%;background:var(--purple);color:white;font-size:13px}.mini-step p{font-size:12px;line-height:1.55;margin:3px 0}.contact{background:#eff6ff;border:1px solid #c9def9;border-radius:10px;padding:13px;margin-top:15px;font-size:12px;line-height:1.6}.contact strong{color:#064a9c;display:block;margin-bottom:4px}.footer{background:#083b7e;color:#fff;padding:24px clamp(18px,4vw,50px);font-size:12px;line-height:1.7}.footer a{color:#fff}.status{font-size:12px;color:#6144a9;min-height:18px;margin:10px 0 0}.no-results{padding:18px;font-size:13px;color:var(--muted)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1150px){.layout{grid-template-columns:270px minmax(0,1fr)}.right-col{grid-column:2;grid-template-columns:1fr 1fr}.service-head{grid-template-columns:140px 1fr}.illustration{height:145px}.brand-label{display:none}}@media(max-width:760px){.govbar{align-items:flex-start;flex-direction:column}.masthead{align-items:flex-start;flex-direction:column}.tools{width:100%;justify-content:stretch}.search{min-width:0;flex:1}.hero-inner{grid-template-columns:1fr}.hero-audio{max-width:270px}.layout{display:flex;flex-direction:column;padding:0 12px 30px}.layout>*,.right-col{width:100%}.right-col{display:grid;grid-template-columns:1fr}.service-list{grid-template-columns:1fr 1fr}.service{align-items:flex-start;padding:8px}.service-icon{width:34px;height:34px;font-size:19px}.service small{display:none}.center{padding:14px}.service-head{grid-template-columns:1fr}.illustration{height:110px}.requirements{grid-template-columns:1fr 1fr}.req-card{min-height:0;padding:11px}.step{grid-template-columns:34px 30px 1fr}.govbar nav{gap:9px}.brand img{width:170px}}@media(max-width:430px){.service-list{grid-template-columns:1fr}.requirements{grid-template-columns:1fr}.hero h1{font-size:30px}.hero-audio{font-size:12px}.search{width:100%;flex-basis:100%}}
+/* Ajustes específicos para móviles: navegación táctil y contenido compacto */
+@media (max-width:760px){
+ body{font-size:14px}.govbar{padding:8px 14px;gap:5px;font-size:10px;line-height:1.4}.govbar strong{max-width:100%;font-size:10px}.govbar nav{width:100%;gap:12px;font-size:10px}
+ .masthead{padding:12px 14px;gap:12px}.brand{min-width:0;width:100%;gap:10px}.brand img{width:min(48vw,180px);max-height:48px}.brand-sep{height:38px}.brand-label{display:block;font-size:11px;line-height:1.25;max-width:145px}
+ .tools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;width:100%}.search{width:100%;min-width:0;flex:initial;grid-column:1/-1}.search input{padding:11px 13px;font-size:13px}.search button{padding:9px 15px}.tools .purple-btn{justify-self:start;font-size:12px;padding:10px 14px}
+ .hero{min-height:280px;background-position:center;background-size:cover}.hero:before{background:linear-gradient(90deg,#062d68ef 0%,#064a9cce 65%,#063c8480 100%)}.hero-inner{padding:24px 18px 48px;gap:15px}.eyebrow{font-size:10px;letter-spacing:.06em}.hero h1{font-size:clamp(28px,8vw,36px);margin:7px 0}.hero p{font-size:13px;line-height:1.5;max-width:38rem}.hero-audio{max-width:250px;padding:8px 14px 8px 8px;gap:10px;font-size:12px}.speaker{width:45px;height:45px;font-size:23px}.hero-nav{bottom:10px;right:12px;left:12px;justify-content:space-between}.hero-nav button{padding:4px 9px}
+ .layout{display:flex;flex-direction:column;gap:12px;margin:12px auto 0;padding:0 10px 24px}.layout>aside:first-child{width:100%;border-radius:12px}.panel-heading{padding:12px 14px}.panel-heading h2{font-size:14px}.panel-heading p{font-size:11px}
+ .service-list{display:flex;overflow-x:auto;overscroll-behavior-x:contain;gap:8px;padding:10px;scroll-snap-type:x mandatory}.service{flex:0 0 190px;min-height:70px;align-items:center;padding:9px;border:1px solid #e0e8f4;scroll-snap-align:start}.service strong{font-size:12px}.service small{display:block;font-size:10px}.service-icon{width:36px;height:36px;font-size:19px}
+ .center{padding:14px;border-radius:12px;width:100%}.crumb{font-size:10px;line-height:1.5;margin-bottom:12px}.service-head{grid-template-columns:minmax(0,112px) minmax(0,1fr);gap:12px;align-items:start}.illustration{height:112px;font-size:50px;border-radius:13px}.service-head h2{font-size:clamp(21px,6vw,28px);margin:7px 0 4px;overflow-wrap:anywhere}.service-head h3{font-size:13px;line-height:1.35}.service-head p{font-size:12px;line-height:1.5}.actions{gap:8px;margin-top:11px}.action{font-size:11px;padding:10px 12px}
+ .info-strip{margin:14px 0;padding:11px;gap:8px}.info-strip .i{font-size:21px}.info-strip strong{font-size:12px}.info-strip p{font-size:11px}.section-title{font-size:18px;margin:18px 0 10px}.requirements{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.req-card{min-height:0;padding:10px;border-radius:9px}.req-icon{font-size:23px;margin-bottom:5px}.req-card h4{font-size:11px;line-height:1.35}.req-card p{font-size:10px;line-height:1.5}.step{grid-template-columns:30px 26px minmax(0,1fr);gap:7px;padding:10px}.step-num{width:28px;height:28px;font-size:12px}.step-art{font-size:22px}.step strong{font-size:12px}.step p{font-size:11px;line-height:1.5}
+ .right-col{width:100%;display:grid;grid-template-columns:minmax(0,1fr);gap:12px}.right-panel,.steps-panel{padding:14px}.right-panel h2,.steps-panel h2{font-size:15px}.right-panel>p,.mini-step p,.contact{font-size:11px}.listen-options button{padding:12px;font-size:12px}.footer{padding:20px 15px;font-size:11px}
+}
+@media(max-width:430px){.govbar strong{font-size:9px}.brand img{width:44vw;max-width:155px}.brand-label{font-size:10px;max-width:125px}.hero{min-height:295px}.hero-inner{padding:22px 15px 48px}.hero h1{font-size:29px}.hero p{font-size:12px}.service-head{grid-template-columns:1fr}.illustration{height:125px;font-size:58px}.requirements{grid-template-columns:repeat(2,minmax(0,1fr))}.req-card{padding:9px}.req-card h4,.req-card p{font-size:10px}.actions .action{flex:1 1 auto}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Tres pantallas coordinadas: portada, catálogo y detalle */
+[hidden]{display:none!important}
+:root{--purple:#8050d5;--purple2:#623ab7;--blue:#0751a5;--navy:#082e69}
+.govbar{background:#082f6c;padding:8px clamp(14px,3vw,42px);font-size:12px}
+.masthead{min-height:92px;padding:12px clamp(14px,3vw,42px);gap:20px}
+.brand{min-width:0;gap:20px}
+.brand img{object-fit:contain;max-height:66px}
+.brand-cuenta{width:150px!important}
+.brand-gob{width:280px!important}
+.brand-sep,.brand-label{display:none}
+.hero{min-height:290px;background-position:center 43%;border-bottom:4px solid #dce4f7}
+.hero:before{background:linear-gradient(105deg,#062f6deF 0%,#063b83e8 42%,#063b8370 58%,#063b8330 100%)}
+.hero-inner{grid-template-columns:minmax(0,1fr) auto;padding:30px clamp(24px,6.3vw,80px);gap:20px}
+.hero h1{font-size:clamp(29px,3vw,42px);max-width:470px}
+.hero-accent{color:#c18bff}
+.hero p{max-width:390px;font-size:14px;line-height:1.5}
+.hero-entry{margin-top:18px}
+.hero-entry .action{border-radius:28px;background:#8050d5;padding:12px 22px;font-size:12px;letter-spacing:.02em}
+.hero-entry .action span{display:inline-grid;place-items:center;background:white;color:#8050d5;border-radius:50%;width:27px;height:27px;margin-right:9px}
+.hero-audio{align-self:center}
+.home-view,.overview-view{max-width:1500px;margin:0 auto;padding:22px clamp(16px,3.8vw,48px) 28px}
+.language-strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-bottom:26px}
+.language-card{position:relative;min-height:86px;border:2px solid transparent;border-radius:5px;overflow:hidden;color:#fff;text-align:left;padding:14px 12px;display:flex;flex-direction:column;justify-content:flex-end;gap:1px;background:#123b70;isolation:isolate;box-shadow:0 2px 5px #122c5015}
+.language-card:before{content:"";position:absolute;inset:0;background-image:linear-gradient(0deg,#071e48df,#071e4822),var(--lang-image);background-position:center;background-size:cover;z-index:-1;transition:transform .2s}
+.language-card:hover:before{transform:scale(1.05)}
+.language-card.active{border-color:#8050d5;box-shadow:0 0 0 2px #8050d533}
+.lang-glyph{font-size:22px;font-weight:700;line-height:1.1}
+.language-card strong{font-size:13px;text-shadow:0 1px 2px #000}
+.home-search-head{display:grid;grid-template-columns:1fr minmax(300px,40%);align-items:center;gap:22px;margin-bottom:20px}
+.home-search-head h2{font-size:19px;color:#243d6d;margin:0 0 3px}
+.home-search-head p{font-size:11px;color:#78839b;margin:0}
+.home-search{display:flex;align-items:center;gap:10px;background:white;border:1px solid #d7dce8;border-radius:30px;padding:0 14px;min-width:0;box-shadow:0 2px 4px #172a4a08}
+.home-search>span{font-size:23px;color:#4b57a5}
+.home-search input{width:100%;min-width:0;border:0;outline:0;padding:12px 2px;font-size:12px;background:transparent}
+.home-search button{border:0;background:transparent;color:#4b57a5;font-size:22px}
+.quick-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.quick-card{min-height:100px;background:#fff;border:1px solid #edf0f7;border-radius:9px;box-shadow:0 3px 0 #e0e3ed;padding:14px 10px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:5px;text-align:center;color:#273f79;transition:transform .18s,border-color .18s}
+.quick-card:hover{transform:translateY(-2px);border-color:#bba5f3}
+.quick-card>span{font-size:25px;line-height:1.1;color:#3c4fa7;font-weight:700}
+.quick-card strong{font-size:11px;line-height:1.35}
+.quick-card small{font-size:9px;line-height:1.35;color:#7c86a1}
+.language-note{background:#efedfc;text-align:center;margin:24px calc(clamp(16px,3.8vw,48px)*-1) -28px;padding:12px 16px;color:#34436e;font-size:12px}
+.language-links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:7px 0}
+.language-links button{border:0;background:transparent;color:#34436e;font-size:11px;padding:2px}
+.language-note small{font-size:10px;color:#7a8199}
+.overview-title{display:flex;align-items:center;gap:14px;margin:10px 0 24px}
+.overview-title>span{width:5px;align-self:stretch;background:#8050d5;border-radius:4px}
+.overview-title h2{font-size:clamp(20px,2vw,28px);margin:0;color:#0751a5}
+.overview-title p{margin:5px 0 0;color:#30476b;font-size:14px}
+.overview-title .action{margin-left:auto;white-space:nowrap}
+.overview-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.overview-card{background:linear-gradient(145deg,#fff,#f5f7fd);border:1px solid #e1e5ef;border-radius:8px;padding:14px;display:flex;flex-direction:column;align-items:center;text-align:center;min-width:0}
+.overview-art{font-size:48px;min-height:78px;display:grid;place-items:center}
+.overview-card h3{color:#0751a5;font-size:14px;margin:5px 0}
+.overview-card p{font-size:12px;line-height:1.5;margin:0 0 14px;flex:1}
+.overview-card .action{width:100%;font-size:11px;padding:10px 8px}
+.overview-card.wide{grid-column:span 2;flex-direction:row;text-align:left;gap:14px;min-height:130px}
+.overview-card.wide .overview-art{min-width:95px}
+.overview-card.wide .overview-card-body{display:flex;flex-direction:column;align-items:flex-start;flex:1}
+.overview-card.wide .action{max-width:220px}
+#detailView{margin-top:14px}
+#detailView .panel{box-shadow:0 2px 10px #173e7008}
+@media(max-width:1000px){
+ .brand-cuenta{width:120px!important}.brand-gob{width:210px!important}
+ .quick-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .overview-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:700px){
+ .govbar{flex-direction:row;align-items:center;padding:7px 12px;font-size:9px}
+ .govbar nav{gap:8px;font-size:9px;justify-content:flex-end}
+ .masthead{padding:10px 13px;gap:10px}
+ .brand{width:100%;justify-content:flex-start;gap:12px}
+ .brand-cuenta{width:100px!important;max-height:46px!important}
+ .brand-gob{width:180px!important;max-height:48px!important}
+ .tools{display:grid;grid-template-columns:1fr auto;width:100%;gap:7px}
+ .search{grid-column:1/-1;width:100%;min-width:0}
+ .purple-btn{padding:9px 12px;font-size:11px}
+ .hero{min-height:315px;background-position:62% center}
+ .hero:before{background:linear-gradient(90deg,#062f6df2 0%,#063b83d9 64%,#063b8370 100%)}
+ .hero-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:24px 18px 54px;gap:10px}
+ .hero h1{font-size:31px;line-height:1.12;margin:8px 0}
+ .hero p{font-size:12px;max-width:330px}
+ .hero-audio{max-width:240px;padding:7px 12px 7px 7px;font-size:11px}
+ .speaker{width:42px;height:42px;font-size:22px}
+ .hero-nav{left:12px;right:12px;bottom:9px;justify-content:center}
+ .home-view,.overview-view{padding:14px 12px 24px}
+ .language-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:19px}
+ .language-card{min-height:76px;padding:10px}
+ .language-card:last-child{grid-column:1/-1}
+ .home-search-head{grid-template-columns:1fr;gap:12px;margin-bottom:15px}
+ .home-search-head h2{font-size:18px}
+ .home-search{width:100%}
+ .quick-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .quick-card{min-height:105px;padding:12px 8px}
+ .quick-card strong{font-size:11px}
+ .language-note{margin:20px -12px -24px;padding:13px 10px}
+ .overview-title{align-items:flex-start;flex-wrap:wrap;margin:4px 0 17px}
+ .overview-title h2{font-size:20px;line-height:1.3}
+ .overview-title p{font-size:12px;line-height:1.5}
+ .overview-title .action{margin:4px 0 0 auto}
+ .overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .overview-card{padding:11px 9px}
+ .overview-art{font-size:38px;min-height:58px}
+ .overview-card h3{font-size:12px;line-height:1.35}
+ .overview-card p{font-size:10px;line-height:1.45}
+ .overview-card .action{font-size:10px;padding:9px 5px}
+ .overview-card.wide{grid-column:span 2;min-height:105px;gap:8px}
+ .overview-card.wide .overview-art{min-width:55px;font-size:38px}
+ #detailView{padding:0 10px 24px;gap:10px}
+ #detailView .layout{display:flex;flex-direction:column;padding:0;margin:10px auto 0;gap:10px}
+ #detailView .layout>*{width:100%;min-width:0}
+ #detailView .service-list{display:flex;overflow-x:auto;gap:8px;padding:9px;scroll-snap-type:x mandatory}
+ #detailView .service{flex:0 0 180px;min-height:68px;scroll-snap-align:start}
+ #detailView .service small{display:block}
+ #detailView .service-head{grid-template-columns:90px minmax(0,1fr);gap:10px;align-items:start}
+ #detailView .illustration{height:90px;font-size:42px}
+ #detailView .service-head h2{font-size:22px;overflow-wrap:anywhere}
+ #detailView .service-head h3{font-size:12px}
+ #detailView .service-head p{font-size:11px;line-height:1.5}
+ #detailView .actions{gap:6px}
+ #detailView .action{font-size:10px;padding:9px 10px}
+ #detailView .requirements{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ #detailView .req-card{padding:9px;min-height:0}
+ #detailView .req-card h4{font-size:11px}
+ #detailView .req-card p{font-size:10px}
+ #detailView .right-col{display:grid;grid-template-columns:1fr;gap:10px}
+}
+@media(max-width:380px){
+ .brand-cuenta{width:80px!important}.brand-gob{width:145px!important}
+ .govbar nav a:nth-child(3){display:none}
+ .hero h1{font-size:28px}
+ .overview-grid{grid-template-columns:1fr}
+ .overview-card.wide{grid-column:span 1}
+ #detailView .service-head{grid-template-columns:1fr}
+ #detailView .illustration{height:100px}
+}
+
+/* Ajuste final para laptop, tablet y móvil */
+html{scroll-behavior:smooth}
+body{min-width:320px;overflow-x:hidden}
+img{max-width:100%}
+button,input{max-width:100%}
+.govbar,.masthead,.hero,.home-view,.overview-view,.layout{width:100%;min-width:0}
+.brand,.tools,.search,.hero-inner,.home-search-head,.overview-title,.service-head,
+.layout>* , .right-col>*{min-width:0}
+.hero{background-size:cover}
+.hero-inner>*{min-width:0}
+.hero h1,.hero p,.overview-card h3,.overview-card p,.service-head h2,.service-head p{overflow-wrap:anywhere}
+#detailView .center,#detailView .right-col,#detailView .layout>aside{min-width:0}
+#detailView .requirements>*{min-width:0}
+#detailView .req-card p{overflow-wrap:anywhere}
+
+/* Laptop y monitores: usar el espacio sin estirar demasiado el contenido */
+@media (min-width:1100px){
+ .govbar{min-height:40px}
+ .masthead{min-height:100px}
+ .brand-cuenta{width:150px!important}
+ .brand-gob{width:285px!important}
+ .tools{flex-wrap:nowrap}
+ .search{width:min(38vw,440px)}
+ .hero{min-height:320px}
+ .hero-inner{max-width:1500px;margin:0 auto;width:100%;grid-template-columns:minmax(0,1fr) minmax(260px,360px)}
+ .home-view,.overview-view{padding-left:clamp(28px,4vw,64px);padding-right:clamp(28px,4vw,64px)}
+ .language-card{min-height:100px}
+ .quick-card{min-height:112px}
+ .overview-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+ #detailView.layout{max-width:1500px}
+}
+
+/* Laptop pequeña y tablet horizontal */
+@media (min-width:701px) and (max-width:1099px){
+ .govbar{padding:8px 18px;font-size:11px}
+ .govbar nav{gap:10px}
+ .masthead{padding:12px 18px;gap:14px;flex-wrap:wrap}
+ .brand{gap:10px;flex:1 1 280px}
+ .brand-cuenta{width:115px!important}
+ .brand-gob{width:205px!important}
+ .tools{flex:1 1 100%;display:grid;grid-template-columns:minmax(0,1fr) auto;justify-content:stretch}
+ .search{grid-column:1/-1;width:100%}
+ .hero{min-height:300px}
+ .hero-inner{padding:26px 28px 50px;grid-template-columns:minmax(0,1fr) 220px}
+ .hero h1{font-size:clamp(28px,4vw,38px)}
+ .home-view,.overview-view{padding:18px 20px 26px}
+ .language-strip{gap:9px}
+ .language-card{min-height:86px;padding:10px}
+ .quick-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .overview-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ #detailView.layout{grid-template-columns:minmax(180px, .8fr) minmax(0,1.7fr);gap:12px}
+ #detailView .right-col{grid-column:1/-1;grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* Teléfono: cabecera compacta, banner legible y tarjetas táctiles */
+@media (max-width:700px){
+ .govbar{display:flex;align-items:center;justify-content:space-between;padding:7px 10px;gap:8px;font-size:9px;line-height:1.35}
+ .govbar>strong{max-width:58%;font-size:9px}
+ .govbar nav{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;font-size:9px}
+ .masthead{display:flex;flex-direction:column;align-items:stretch;padding:10px 12px;gap:10px}
+ .brand{display:flex;align-items:center;justify-content:flex-start;gap:10px;width:100%;min-width:0}
+ .brand img{object-fit:contain}
+ .brand-cuenta{width:clamp(75px,25vw,110px)!important;max-height:44px!important}
+ .brand-gob{width:clamp(135px,48vw,205px)!important;max-height:48px!important}
+ .tools{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;width:100%;gap:8px}
+ .search{grid-column:1/-1;display:flex;width:100%;min-width:0}
+ .search input{width:100%;min-width:0;font-size:12px;padding:11px 12px}
+ .search button{flex:0 0 auto;padding:9px 12px}
+ .purple-btn{font-size:11px;padding:10px 12px;white-space:normal}
+ .hero{min-height:320px;background-position:62% center}
+ .hero:before{background:linear-gradient(90deg,#062f6df2 0%,#063b83e8 60%,#063b8390 100%)}
+ .hero-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:10px;padding:22px 16px 55px;width:100%}
+ .hero-inner>div:first-child{width:100%}
+ .eyebrow{font-size:10px;line-height:1.4}
+ .hero h1{font-size:clamp(27px,8vw,34px);line-height:1.13;margin:7px 0}
+ .hero p{font-size:12px;line-height:1.5;max-width:95%}
+ .hero-entry{margin-top:13px}
+ .hero-entry .action{font-size:10px;padding:9px 13px}
+ .hero-audio{max-width:225px;font-size:10px;gap:8px}
+ .speaker{width:40px;height:40px;flex:0 0 40px}
+ .hero-nav{left:10px;right:10px;bottom:9px;justify-content:center;gap:7px}
+ .hero-nav button{min-width:28px;min-height:28px}
+ .home-view,.overview-view{padding:14px 12px 22px}
+ .language-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:18px}
+ .language-card{min-height:76px;padding:9px}
+ .language-card strong{font-size:12px}
+ .language-card:last-child{grid-column:1/-1}
+ .home-search-head{display:grid;grid-template-columns:minmax(0,1fr);gap:11px;margin-bottom:14px}
+ .home-search-head h2{font-size:17px;line-height:1.3}
+ .home-search-head p{font-size:11px}
+ .home-search{width:100%;min-width:0}
+ .home-search input{font-size:12px;padding:12px 2px}
+ .quick-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .quick-card{min-height:105px;padding:12px 7px}
+ .quick-card>span{font-size:24px}
+ .quick-card strong{font-size:11px}
+ .quick-card small{font-size:9px}
+ .language-note{margin:18px -12px -22px;padding:13px 10px}
+ .language-links{gap:6px}
+ .language-note small{display:block;line-height:1.5}
+ .overview-title{display:flex;align-items:flex-start;flex-wrap:wrap;gap:10px;margin:4px 0 16px}
+ .overview-title>div{flex:1 1 75%;min-width:0}
+ .overview-title h2{font-size:19px;line-height:1.3}
+ .overview-title p{font-size:12px;line-height:1.5}
+ .overview-title .action{margin:0 0 0 auto}
+ .overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .overview-card{min-width:0;padding:11px 8px}
+ .overview-art{font-size:36px;min-height:55px}
+ .overview-card h3{font-size:12px;line-height:1.35}
+ .overview-card p{font-size:10px;line-height:1.45}
+ .overview-card .action{font-size:10px;padding:10px 5px;white-space:normal}
+ .overview-card.wide{grid-column:span 2;display:flex;flex-direction:row;align-items:center;gap:8px;padding:10px}
+ .overview-card.wide .overview-art{min-width:50px;font-size:35px}
+ .overview-card.wide .overview-card-body{min-width:0;align-items:flex-start}
+ #detailView{padding:0 10px 22px;margin-top:8px}
+ #detailView.layout{display:flex;flex-direction:column;gap:10px;padding:0;margin:8px auto 0}
+ #detailView .layout>*{width:100%;min-width:0}
+ #detailView .service-list{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding:9px}
+ #detailView .service{flex:0 0 178px;scroll-snap-align:start;min-height:68px}
+ #detailView .service-head{display:grid;grid-template-columns:88px minmax(0,1fr);gap:10px}
+ #detailView .illustration{height:90px;font-size:40px}
+ #detailView .service-head h2{font-size:21px;line-height:1.2}
+ #detailView .service-head h3{font-size:12px;line-height:1.35}
+ #detailView .service-head p{font-size:11px;line-height:1.5}
+ #detailView .actions{display:flex;flex-wrap:wrap;gap:7px}
+ #detailView .action{font-size:10px;padding:10px 11px;white-space:normal}
+ #detailView .requirements{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ #detailView .req-card{min-width:0;padding:9px;min-height:0}
+ #detailView .req-card h4{font-size:11px;line-height:1.35}
+ #detailView .req-card p{font-size:10px;line-height:1.5}
+ #detailView .right-col{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+ #detailView .right-panel,#detailView .steps-panel{padding:13px}
+ #detailView .step{grid-template-columns:28px 24px minmax(0,1fr);gap:7px;padding:9px}
+ #detailView .step p{font-size:10px;line-height:1.45}
+ .footer{padding:18px 12px;font-size:10px;line-height:1.5}
+}
+@media(max-width:380px){
+ .govbar nav a:nth-child(3){display:none}
+ .brand-cuenta{width:70px!important}
+ .brand-gob{width:130px!important}
+ .hero{min-height:330px}
+ .hero h1{font-size:27px}
+ .quick-card{min-height:100px}
+ .overview-grid{grid-template-columns:minmax(0,1fr)}
+ .overview-card.wide{grid-column:span 1}
+ #detailView .service-head{grid-template-columns:minmax(0,1fr)}
+ #detailView .illustration{height:105px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+</style></head>
+<body>
+<div class="govbar"><strong>🇲🇽 Sitio oficial del Gobierno del Estado de Chihuahua　 |　 ¿Cómo saberlo?</strong><nav><a href="https://www.chihuahua.gob.mx/" style="color:white">Escuchar</a><a href="#accesibilidad" style="color:white">Accesibilidad</a><a href="https://www.chihuahua.gob.mx/spci" style="color:white">Ayuda</a><a href="#" id="languageHeader" style="color:white">◎ Español</a></nav></div>
+<header class="masthead"><div class="brand"><img class="brand-cuenta" src="assets/logos/logo-cuenta-conmigo.png" alt="Cuenta conmigo"><img class="brand-gob" src="assets/logos/logo-mas-chihuahua.png" alt="Más Chihuahua, Gobierno del Estado"></div><div class="tools"><label class="search"><span class="sr-only">Buscar servicios</span><input id="search" type="search" placeholder="Buscar información, trámites o apoyos…"><button id="searchBtn" aria-label="Buscar">⌕</button></label><button class="purple-btn" id="clearSearch">Consultas sugeridas⌄</button></div></header>
+<section class="hero" id="hero"><div class="hero-inner"><div><div class="eyebrow">Pueblos y comunidades indígenas de Chihuahua</div><h1 id="heroTitle">Consulta apoyos, becas<br><span class="hero-accent">y estancias</span></h1><p id="heroText">Educación, salud, vivienda, programas sociales y más…</p>
+<div class="hero-entry"><button class="action" id="enterMicrosite"><span aria-hidden="true">➜</span> ENTRAR AL MICROSITIO</button></div></div><button class="hero-audio" id="heroSpeak"><span class="speaker">🔊</span><span>Escucha esta información<br>en voz alta</span></button></div><div class="hero-nav"><button id="prevHero" aria-label="Banner anterior">‹</button><div class="dots" id="heroDots"></div><button id="nextHero" aria-label="Banner siguiente">›</button></div></section>
+
+<section class="home-view" id="homeView">
+  <div class="language-strip" aria-label="Selecciona una lengua para consultar información">
+    <button class="language-card active" data-language="Rarámuri" style="--lang-image:url('assets/hero/raramuri.jpg')"><span class="lang-glyph">ᛝ</span><strong>Rarámuri</strong></button>
+    <button class="language-card" data-language="Tepehuán" style="--lang-image:url('assets/hero/tepehuan.jpg')"><span class="lang-glyph">△</span><strong>Tepehuán</strong></button>
+    <button class="language-card" data-language="Pima" style="--lang-image:url('assets/hero/pima.jpg')"><span class="lang-glyph">◎</span><strong>Pima</strong></button>
+    <button class="language-card" data-language="Guarijío" style="--lang-image:url('assets/hero/guarijio.jpg')"><span class="lang-glyph">⌘</span><strong>Guarijío</strong></button>
+    <button class="language-card" data-language="Nd'ee" style="--lang-image:url('assets/hero/odam.jpg')"><span class="lang-glyph">✳</span><strong>Nd'ee</strong></button>
+  </div>
+  <div class="home-search-head">
+    <div><h2>¿Qué necesitas encontrar?</h2><p>Busca trámites, apoyos y servicios.</p></div>
+    <label class="home-search"><span aria-hidden="true">⌕</span><input id="homeSearch" type="search" placeholder="Buscar trámites, becas, salud…"><button id="homeSearchBtn" aria-label="Buscar">⌕</button></label>
+  </div>
+  <div class="quick-grid">
+    <button class="quick-card" data-view="overview"><span>▤</span><strong>Trámites y servicios</strong><small>Conoce los requisitos</small></button>
+    <button class="quick-card" data-quick="gestiones"><span>⌖</span><strong>¿Dónde acudir?</strong><small>Ubica el módulo de orientación</small></button>
+    <button class="quick-card" data-quick="estudiantes"><span>✦</span><strong>Becas y apoyos</strong><small>Impulsa tu educación</small></button>
+    <button class="quick-card" data-quick="salud"><span>✚</span><strong>Salud</strong><small>Consulta orientación</small></button>
+    <button class="quick-card" data-quick="infraestructura"><span>⌂</span><strong>Vivienda y comunidad</strong><small>Mejora tu comunidad</small></button>
+    <button class="quick-card" data-quick="contingencia"><span>●</span><strong>Programas sociales</strong><small>Conoce oportunidades</small></button>
+  </div>
+  <div class="language-note"><strong>Consulta la información en tu lengua.</strong><div class="language-links"><button data-language="Rarámuri">Rarámuri</button> | <button data-language="Tepehuán">Tepehuán</button> | <button data-language="Pima">Pima</button> | <button data-language="Guarijío">Guarijío</button> | <button data-language="Nd'ee">Nd'ee</button></div><small id="languageStatus">La información está en español por ahora. Las traducciones se incorporarán después de validarse con hablantes.</small></div>
+</section>
+<section class="overview-view" id="overviewView" hidden>
+  <div class="overview-title"><span></span><div><h2>Trámites y apoyos para nuestras comunidades</h2><p>Selecciona el trámite que necesitas y consulta qué se requiere y cómo hacerlo.</p></div><button class="action secondary" id="backHome">← Inicio</button></div>
+  <div class="overview-grid" id="overviewGrid"></div>
+</section>
+<main class="layout" id="detailView" hidden><aside class="panel"><div class="panel-heading"><h2>▤　TRÁMITES Y APOYOS</h2><p>Selecciona el servicio que necesitas</p></div><nav class="service-list" id="serviceList" aria-label="Lista de servicios"></nav></aside>
+<section class="panel center" aria-live="polite"><div class="crumb"><a href="https://www.chihuahua.gob.mx/">Inicio</a>　›　Trámites y apoyos　›　<span id="crumbName">Estancia temporal</span></div><div class="service-head"><div class="illustration" id="illustration" aria-hidden="true">🏡</div><div><span class="tag" id="serviceTag">ASISTENCIA SOCIAL</span><h2 id="serviceTitle">Estancia temporal</h2><h3 id="serviceSubtitle">Alojamiento y alimentación</h3><p id="serviceIntro"></p><div class="actions"><button class="action" id="speakService">🔊 Escuchar información</button><button class="action secondary" id="jumpReq">▤ ¿Qué necesito?</button></div><p class="status" id="speechStatus" role="status" aria-live="polite"></p></div></div><div class="info-strip"><span class="i">ℹ️</span><div><strong id="whoTitle">¿Quiénes pueden solicitarlo?</strong><p id="whoText"></p></div></div><h3 class="section-title" id="reqHeading">¿Qué necesito?</h3><div class="requirements" id="requirements"></div><h3 class="section-title">¿Cómo se hace?</h3><div class="guide-steps" id="steps"></div><div class="warning"><strong>Importante:</strong> esta página es una guía de orientación para una demostración. No confirma que una convocatoria esté abierta ni sustituye las reglas oficiales. Los requisitos específicos de cada programa deben validarse con la Secretaría antes de publicarlos como definitivos. No pagues a intermediarios ni compartas documentos personales con contactos no verificados.</div></section>
+<aside class="right-col"><section class="panel right-panel"><h2>🎧 Escucha la información</h2><p>Elige qué parte deseas escuchar. El audio usa la voz en español disponible en tu dispositivo.</p><label for="listenSelect" class="sr-only">Parte de la información que quieres escuchar</label><select id="listenSelect" class="listen-select"><option value="summary">Nombre y descripción</option><option value="who">¿Quién puede solicitarlo?</option><option value="requirements">Qué necesito / requisitos</option><option value="steps">Pasos para realizarlo</option><option value="all" selected>Todo el trámite</option></select><div class="listen-options"><button data-listen="summary"><span class="play">▶</span> Nombre y descripción</button><button data-listen="who"><span class="play">▶</span> ¿Quién puede solicitarlo?</button><button data-listen="requirements"><span class="play">▶</span> Documentos y preparación</button><button data-listen="steps"><span class="play">▶</span> Pasos para realizarlo</button><button data-listen="all"><span class="play">▶</span> Escuchar todo</button></div></section><section class="panel steps-panel"><h2>☷　Pasos para hacerlo</h2><div id="miniSteps"></div><div class="contact"><strong>📍 ¿Dónde pedir orientación?</strong>Secretaría de Pueblos y Comunidades Indígenas<br>Av. Venustiano Carranza 803, planta baja, Col. Obrera, Chihuahua, Chih.<br><b>Teléfono:</b> 614 429 3300, ext. 17002<br><small>Confirma que esta oficina atienda el apoyo específico y verifica el teléfono antes de acudir.</small></div></section></aside></main>
+<footer class="footer"><strong>Información oficial y accesibilidad</strong><br>Consulta el <a href="https://www.chihuahua.gob.mx/spci">portal de la Secretaría de Pueblos y Comunidades Indígenas</a> y el <a href="https://www.chihuahua.gob.mx/">Portal del Gobierno del Estado de Chihuahua</a>. El contenido se muestra en español por ahora. Las traducciones a Rarámuri, Guarijó, Pima, Tepehuán y Nd'ee se incorporarán después de ser realizadas y validadas por hablantes de las comunidades correspondientes. <br><span id="accesibilidad">Puedes usar los botones de audio para escuchar la información. La disponibilidad de voz depende del navegador y del dispositivo.</span></footer>
+<script>
+const services=[
+{id:'estancia',icon:'🏡',title:'Estancia temporal',tag:'ASISTENCIA SOCIAL',subtitle:'Alojamiento y alimentación',intro:'Apoyo dirigido a personas indígenas que viajan a la ciudad de Chihuahua para realizar gestiones o trámites ante instituciones del Gobierno del Estado. La estancia contempla alojamiento temporal y alimentación, sujeto a los criterios y disponibilidad del programa.',who:'Personas indígenas que acuden a la ciudad de Chihuahua para realizar una gestión institucional. La autorización y disponibilidad se revisan con el personal responsable.',req:[['🪪','Identificación oficial','Prepara una identificación oficial si la tienes. Pregunta qué alternativa aceptan si no cuentas con ella.'],['📄','Motivo de la visita','Explica qué trámite o gestión realizarás y lleva algún comprobante relacionado, si existe. Confirma qué documentos aceptan.'],['🗣️','Entrevista de valoración','El personal puede realizar una entrevista para conocer la necesidad y orientar el apoyo.'],['✍️','Solicitud y reglas de estancia','La información publicada previamente menciona una solicitud de ingreso y reglas del espacio. Confirma los formatos vigentes antes de acudir.']],steps:['Contacta o acude a la Secretaría y pregunta por la estancia temporal.','Explica la gestión institucional que realizarás en la ciudad.','Presenta la información disponible y responde la entrevista de valoración.','El personal revisará el caso, disponibilidad y condiciones; solicita que te expliquen las reglas antes de ingresar.'],source:'Servicio de estancia temporal publicado por el Gobierno del Estado; confirmar requisitos y disponibilidad vigentes.'},
+{id:'funerario',icon:'🕊️',title:'Apoyo para trámites funerarios',tag:'ASISTENCIA SOCIAL',subtitle:'Orientación ante un fallecimiento',intro:'La Secretaría contempla apoyos de asistencia social para población indígena, incluidos apoyos funerarios conforme al programa vigente. La disponibilidad, el alcance y la documentación dependen de la valoración y de las reglas aplicables.',who:'Consulta con la Secretaría quién puede presentar la solicitud y si existe apoyo disponible para la situación concreta.',req:[['📄','Documentos del fallecimiento','Pregunta qué actas o constancias se requieren en tu caso. En información institucional anterior se mencionan acta de defunción y, según las circunstancias, documentación de Fiscalía.'],['🪪','Identificación','Pregunta qué identificación debe presentar la persona solicitante y qué hacer si falta algún documento.'],['📝','Solicitud y entrevista','Confirma si debes llenar un formato y participar en una entrevista con el personal.'],['☎️','Confirmar antes de trasladarte','Pide la lista vigente, la oficina responsable y si existe apoyo disponible. No pagues a gestores no verificados.']],steps:['Comunícate con la Secretaría para explicar la situación y preguntar por el apoyo vigente.','Solicita la lista oficial de documentos según las circunstancias del fallecimiento.','Presenta la solicitud por el canal que indique el personal y responde las preguntas necesarias.','Pregunta por la resolución, alcance del apoyo y próximos pasos.'],source:'Orientación basada en programas institucionales de asistencia social; la lista detallada de documentos debe confirmarse con las reglas 2026.'},
+{id:'transporte',icon:'🚌',title:'Apoyo para transporte',tag:'ASISTENCIA SOCIAL',subtitle:'Orientación para traslados',intro:'La asistencia social de la Secretaría contempla apoyo de transporte en determinados casos. Este apartado ayuda a preparar la consulta; no significa que haya boletos o recursos disponibles para toda solicitud.',who:'Personas de pueblos y comunidades indígenas que necesiten consultar si su caso puede ser atendido por el programa vigente.',req:[['📍','Origen y destino','Ten claro desde qué localidad viajarías y a dónde necesitas llegar.'],['🎯','Motivo del traslado','Explica la gestión, atención o situación que hace necesario el traslado.'],['🪪','Identificación disponible','Pregunta si se requiere identificación y qué alternativa existe si no cuentas con ella.'],['📅','Fecha y disponibilidad','Confirma fechas, criterios, cupo y si el apoyo es de ida, vuelta o de otro tipo.']],steps:['Pregunta a la Secretaría si el programa contempla transporte para tu motivo de traslado.','Explica origen, destino, fecha y razón del viaje.','Solicita los requisitos exactos y pregunta qué comprobantes debes presentar.','Espera confirmación del personal antes de comprar boletos o hacer gastos.'],source:'La existencia del rubro de apoyo de transporte se menciona en información institucional del programa; condiciones por validar.'},
+{id:'gestiones',icon:'🗂️',title:'Gestiones y documentos institucionales',tag:'ORIENTACIÓN',subtitle:'Apoyo para realizar trámites',intro:'La Secretaría informa sobre facilitación de documentos para procesos institucionales. El tipo de documento, la dependencia que lo expide y la ayuda disponible dependen de cada caso.',who:'Personas indígenas que necesitan orientación para gestionar documentación ante una institución pública.',req:[['📝','Nombre del trámite','Anota qué documento o gestión necesitas y para qué institución.'],['📄','Papeles que ya tienes','Lleva la documentación relacionada que tengas disponible; pregunta antes si se requieren originales o copias.'],['🏢','Dependencia responsable','Confirma qué institución emite el documento y si la Secretaría puede orientarte o canalizarte.'],['🗣️','Apoyo para comprender','Solicita que te expliquen los pasos con palabras claras y pregunta si existe apoyo lingüístico.']],steps:['Describe el documento o gestión que necesitas realizar.','El personal te orientará sobre la dependencia responsable o la posible canalización.','Confirma los requisitos directamente con la institución que emite el documento.','Guarda folios o comprobantes y pregunta cómo dar seguimiento.'],source:'El programa institucional menciona facilitación de documentos para procesos institucionales; los trámites concretos varían.'},
+{id:'contingencia',icon:'🤝',title:'Apoyo por contingencia',tag:'ASISTENCIA SOCIAL',subtitle:'Orientación ante situaciones urgentes',intro:'El programa de asistencia social contempla apoyos económicos o en especie para determinadas contingencias. El tipo de apoyo y su procedencia se valoran caso por caso, conforme a disponibilidad y reglas vigentes.',who:'Personas indígenas que enfrentan una situación de contingencia y desean saber si existe apoyo institucional aplicable.',req:[['🧭','Explica la situación','Describe qué ocurrió, cuándo y qué necesidad inmediata tienes.'],['📄','Comprobantes disponibles','Pregunta qué documentos pueden ayudar a valorar el caso. No se asume que todos sean obligatorios.'],['🪪','Identificación','Consulta qué identificación o datos mínimos se necesitan para iniciar la orientación.'],['⏳','Valoración y disponibilidad','Pregunta cómo se revisa el caso, los tiempos y si hay recursos disponibles.']],steps:['Contacta a la Secretaría y pregunta por el procedimiento de contingencia.','Explica la situación y la necesidad que buscas atender.','Entrega únicamente la información que solicite la oficina por un canal oficial.','Solicita confirmación del resultado, alcance y siguientes pasos.'],source:'El programa de asistencia social 2026 contempla apoyos para contingencias; criterios y documentación específicos deben verificarse.'},
+{id:'infraestructura',icon:'🏘️',title:'Infraestructura social comunitaria',tag:'PROGRAMAS 2026',subtitle:'Mejoras para espacios y necesidades comunitarias',intro:'El programa de infraestructura social para población indígena contempla apoyos para infraestructura comunitaria. La cobertura reportada es estatal; la priorización puede considerar rezago, pobreza extrema y disponibilidad presupuestal.',who:'Comunidades y población indígena; la elegibilidad de cada propuesta depende de los criterios del programa y de la valoración institucional.',req:[['📍','Comunidad y necesidad','Describe la localidad, el espacio o infraestructura que necesita atención.'],['📸','Información del problema','Pregunta si es útil presentar fotografías, ubicación o una descripción del estado actual.'],['👥','Participación comunitaria','Consulta cómo se registra la necesidad y qué respaldo comunitario solicita el programa.'],['📋','Criterios oficiales','Solicita las reglas vigentes, prioridades, fechas y condiciones antes de preparar una propuesta formal.']],steps:['Identifica la necesidad comunitaria y reúne una descripción clara.','Pregunta a la Secretaría si el tipo de obra o mejora entra en el programa vigente.','Solicita la guía oficial para registrar o presentar la propuesta.','La dependencia valorará el proyecto conforme a criterios, prioridades y presupuesto disponible.'],source:'Programa oficial Infraestructura Social a la Población Indígena 2026; requisitos por propuesta a confirmar.'},
+{id:'estudiantes',icon:'🎓',title:'Incentivos para estudiantes indígenas',tag:'PROGRAMAS 2026',subtitle:'Orientación para profesionalización',intro:'El listado de programas 2026 de la Secretaría incluye incentivos económicos para estudiantes indígenas para su profesionalización. Las convocatorias, niveles educativos y condiciones pueden variar.',who:'Estudiantes indígenas que quieran confirmar si pueden participar en el programa vigente.',req:[['🎓','Situación escolar','Pregunta qué niveles o modalidades educativas considera la convocatoria actual.'],['🪪','Identificación','Confirma qué documentos de identidad o acreditación personal se aceptan.'],['📚','Comprobante de estudios','Pregunta si se requiere constancia de inscripción, calificaciones u otro comprobante; no los des por obligatorios hasta confirmarlo.'],['📅','Convocatoria y fechas','Solicita las fechas, criterios de selección, montos oficiales y forma de registro.']],steps:['Pregunta si hay convocatoria vigente y revisa sus bases oficiales.','Verifica que tu situación escolar y localidad entren en los criterios publicados.','Prepara solo los documentos que pida la convocatoria.','Presenta la solicitud en el canal oficial y conserva el folio o comprobante.'],source:'Programa aparece en el listado oficial de programas 2026; convocatoria y requisitos detallados deben verificarse.'},
+{id:'alimentacion',icon:'🥣',title:'Alimentación nutritiva en escuelas',tag:'PROGRAMAS 2026',subtitle:'Estrategia solidaria para escuelas con población indígena',intro:'La Secretaría incluye una estrategia solidaria de alimentación nutritiva en escuelas con población indígena. La participación depende del programa vigente y de la coordinación con las instancias responsables.',who:'Escuelas y comunidades interesadas en saber si la estrategia aplica a su localidad y cómo se coordina la participación.',req:[['🏫','Datos de la escuela','Ten a mano el nombre de la escuela y la localidad para consultar cobertura.'],['👥','Contacto responsable','Pregunta quién debe iniciar la consulta: dirección escolar, comité u otra figura designada.'],['📋','Condiciones del programa','Solicita criterios de participación, cobertura y operación vigentes.'],['☎️','Coordinación','Confirma con la Secretaría cuál es el área responsable y cómo dar seguimiento.']],steps:['Consulta si la escuela o localidad está considerada en la estrategia vigente.','Solicita que te indiquen quién puede realizar la gestión formal.','Confirma la documentación y las condiciones de participación.','Sigue las instrucciones de coordinación que comunique la dependencia.'],source:'Programa incluido en el listado oficial 2026; condiciones de acceso a confirmar con la Secretaría.'},
+{id:'economico',icon:'🌱',title:'Desarrollo económico indígena',tag:'PROGRAMAS 2026',subtitle:'Orientación sobre proyectos e iniciativas económicas',intro:'El listado institucional 2026 incluye un programa de desarrollo económico para la población indígena. Para conocer si una iniciativa puede participar, se debe consultar la convocatoria o las reglas vigentes.',who:'Personas, grupos o comunidades que quieran preguntar si su iniciativa corresponde a los apoyos económicos disponibles.',req:[['💡','Idea o actividad','Describe brevemente qué actividad o proyecto quieres impulsar.'],['📍','Localidad','Indica la comunidad donde se desarrollaría la iniciativa.'],['📄','Bases y criterios','Pide los requisitos oficiales y confirma si se aceptan solicitudes individuales o colectivas.'],['📅','Fechas y presupuesto','Verifica convocatoria, calendario, posibles aportaciones y disponibilidad.']],steps:['Consulta si hay convocatoria abierta para desarrollo económico.','Explica el objetivo y dónde se realizará el proyecto.','Solicita las bases y prepara solo los documentos que señalen.','Presenta la propuesta por el canal indicado y conserva el seguimiento.'],source:'Programa aparece en el listado oficial de programas 2026; los requisitos específicos dependen de la convocatoria.'},
+{id:'derechos',icon:'⚖️',title:'Derechos indígenas e identidad cultural',tag:'PROGRAMAS 2026',subtitle:'Orientación, participación y actividades comunitarias',intro:'El programa de fomento al respeto de los derechos indígenas contempla acciones de coordinación, capacitación, participación y actividades sociales, culturales o deportivas relacionadas con los derechos de los pueblos indígenas.',who:'Personas, comunidades u organizaciones que busquen información sobre actividades, capacitación, participación o derechos indígenas.',req:[['🗣️','Tema de interés','Explica qué información, capacitación o actividad buscas.'],['📍','Comunidad','Indica la localidad o comunidad interesada.'],['📅','Actividad vigente','Pregunta por calendario, cupo, convocatoria y forma de participar.'],['🤝','Participación comunitaria','Consulta si la actividad requiere registro o coordinación con autoridades comunitarias.']],steps:['Contacta a la Secretaría y describe el tema o actividad de interés.','Pregunta por el área responsable, calendario y opciones vigentes.','Confirma si hace falta registro, solicitud o coordinación comunitaria.','Solicita materiales accesibles y orientación en una lengua que comprendas, si está disponible.'],source:'Programa Fomento al Respeto de los Derechos Indígenas 2026; actividades y requisitos se confirman por convocatoria.'},
+{id:'identidad',icon:'🪶',title:'Juntos por nuestra identidad',tag:'PROGRAMAS 2026',subtitle:'Cultura, identidad y participación comunitaria',intro:'El listado de programas de la Secretaría incluye Juntos por Nuestra Identidad. Consulta con la dependencia las actividades concretas, el alcance del programa y las oportunidades de participación vigentes.',who:'Personas y comunidades que quieran informarse sobre actividades relacionadas con identidad y participación comunitaria.',req:[['🪶','Actividad que buscas','Explica si buscas participar en una actividad, evento o iniciativa comunitaria.'],['📍','Localidad','Ten clara la comunidad o municipio relacionado.'],['📆','Calendario','Pregunta por fechas, cupo, sedes y convocatoria vigente.'],['📋','Registro','Confirma si existe inscripción y qué información solicitan.']],steps:['Consulta a la Secretaría por las actividades vigentes del programa.','Pide detalles de sedes, fechas y personas que pueden participar.','Confirma si debes registrarte o presentar una solicitud.','Sigue las indicaciones oficiales para participar.'],source:'Programa incluido en el listado oficial 2026; detalles operativos por confirmar.'}
+];
+const heroSlides=[{title:'Apoyos y servicios',text:'Conoce los programas y servicios de orientación de la Secretaría de Pueblos y Comunidades Indígenas.',image:'assets/hero/raramuri.jpg'},{title:'Información clara, paso a paso',text:'Consulta qué preparar, cómo preguntar y dónde confirmar los requisitos oficiales.',image:'assets/hero/guarijio.jpg'},{title:'La comunidad es lo primero',text:'Una guía de orientación para personas, familias y comunidades indígenas de Chihuahua.',image:'assets/hero/odam.jpg'},{title:'Accesibilidad para todas y todos',text:'Escucha la información en español. Las traducciones indígenas se incorporarán después de validarse con hablantes.',image:'assets/hero/tepehuan.jpg'},{title:'Antes de trasladarte, confirma',text:'Verifica requisitos, disponibilidad, fechas y oficina responsable con la Secretaría.',image:'assets/hero/pima.jpg'}];
+let selected=services[0],slideIndex=0,slideTimer=null;const $=id=>document.getElementById(id);
+function renderList(filter=''){const list=$('serviceList');list.replaceChildren();const matches=services.filter(s=>(s.title+' '+s.subtitle+' '+s.intro+' '+s.tag).toLocaleLowerCase('es-MX').includes(filter.toLocaleLowerCase('es-MX')));if(!matches.length){const p=document.createElement('p');p.className='no-results';p.textContent='No encontramos coincidencias. Prueba con otra palabra.';list.append(p);return}matches.forEach(s=>{const b=document.createElement('button');b.className='service';b.type='button';b.setAttribute('aria-current',s.id===selected.id?'true':'false');b.innerHTML=`<span class="service-icon" aria-hidden="true">${s.icon}</span><span><strong>${s.title}</strong><small>${s.subtitle}</small></span>`;b.addEventListener('click',()=>{selected=s;renderList($('search').value);renderService();});list.append(b)})}
+function renderService(){const s=selected;$('crumbName').textContent=s.title;$('illustration').textContent=s.icon;$('serviceTag').textContent=s.tag;$('serviceTitle').textContent=s.title;$('serviceSubtitle').textContent=s.subtitle;$('serviceIntro').textContent=s.intro;$('whoText').textContent=s.who;$('reqHeading').textContent='¿Qué necesito para '+s.title.toLocaleLowerCase('es-MX')+'?';const req=$('requirements');req.replaceChildren();s.req.forEach(([icon,title,desc])=>{const article=document.createElement('article');article.className='req-card';article.innerHTML=`<div class="req-icon" aria-hidden="true">${icon}</div><h4>${title}</h4><p>${desc}</p>`;req.append(article)});const steps=$('steps');steps.replaceChildren();s.steps.forEach((line,i)=>{const el=document.createElement('article');el.className='step';el.innerHTML=`<span class="step-num">${i+1}</span><span class="step-art" aria-hidden="true">${['🏢','🗣️','📄','✅'][i%4]}</span><div><strong>Paso ${i+1}</strong><p>${line}</p></div>`;steps.append(el)});const mini=$('miniSteps');mini.replaceChildren();s.steps.forEach((line,i)=>{const el=document.createElement('div');el.className='mini-step';el.innerHTML=`<b>${i+1}</b><p>${line}</p>`;mini.append(el)});$('speechStatus').textContent='';}
+function textFor(part){const s=selected;const intro=s.title+'. '+s.subtitle+'. '+s.intro;const who='Quién puede solicitarlo. '+s.who;const req='Qué necesitas o requisitos orientativos. '+s.req.map(x=>x[1]+'. '+x[2]).join(' ');const steps='Pasos para hacerlo. '+s.steps.map((x,i)=>'Paso '+(i+1)+'. '+x).join(' ');return part==='summary'?intro:part==='who'?who:part==='requirements'?req:part==='steps'?steps:[intro,who,req,steps].join(' ')}
+function speak(part){if(!('speechSynthesis'in window)){ $('speechStatus').textContent='Tu navegador no tiene lectura en voz alta disponible. Puedes leer el texto en pantalla.';return}window.speechSynthesis.cancel();const chosen=part||$('listenSelect').value;const u=new SpeechSynthesisUtterance(textFor(chosen));u.lang='es-MX';u.rate=.91;u.onstart=()=>{$('speechStatus').textContent='Reproduciendo en español…'};u.onend=()=>{$('speechStatus').textContent='Lectura terminada.'};u.onerror=()=>{$('speechStatus').textContent='No se pudo iniciar el audio. Revisa la configuración de voz del dispositivo.'};window.speechSynthesis.speak(u)}
+function showSlide(i){slideIndex=(i+heroSlides.length)%heroSlides.length;const s=heroSlides[slideIndex];$('hero').style.backgroundImage=`url("${s.image}")`;$('heroTitle').textContent=s.title;$('heroText').textContent=s.text;const dots=$('heroDots');dots.replaceChildren();heroSlides.forEach((x,j)=>{const b=document.createElement('button');b.setAttribute('aria-label','Mostrar banner '+(j+1));b.setAttribute('aria-current',j===slideIndex?'true':'false');b.addEventListener('click',()=>{showSlide(j);restartSlideTimer()});dots.append(b)})}
+function restartSlideTimer(){clearInterval(slideTimer);slideTimer=setInterval(()=>showSlide(slideIndex+1),6000)}
+$('heroSpeak').addEventListener('click',()=>{const t=$('heroTitle').textContent+'. '+$('heroText').textContent;if('speechSynthesis'in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='es-MX';speechSynthesis.speak(u)}});$('prevHero').addEventListener('click',()=>{showSlide(slideIndex-1);restartSlideTimer()});$('nextHero').addEventListener('click',()=>{showSlide(slideIndex+1);restartSlideTimer()});$('speakService').addEventListener('click',()=>speak());$('jumpReq').addEventListener('click',()=>{$('reqHeading').scrollIntoView({behavior:'smooth',block:'start'})});document.querySelectorAll('[data-listen]').forEach(b=>b.addEventListener('click',()=>{ $('listenSelect').value=b.dataset.listen;speak(b.dataset.listen)}));$('search').addEventListener('input',e=>renderList(e.target.value));$('searchBtn').addEventListener('click',()=>renderList($('search').value));$('clearSearch').addEventListener('click',()=>{if($('search').value){$('search').value='';renderList()}else{$('serviceList').scrollIntoView({behavior:'smooth',block:'start'})}});document.addEventListener('visibilitychange',()=>{if(document.hidden)clearInterval(slideTimer);else restartSlideTimer()});$('hero').addEventListener('mouseenter',()=>clearInterval(slideTimer));$('hero').addEventListener('mouseleave',restartSlideTimer);
+
+function setView(view){
+ const home=$('homeView'), overview=$('overviewView'), detail=$('detailView');
+ home.hidden=view!=='home';overview.hidden=view!=='overview';detail.hidden=view!=='detail';
+ if(view==='overview') renderOverview($('search').value);
+ if(view==='detail'){renderList($('search').value);renderService();window.scrollTo({top:0,behavior:'smooth'});}
+ else if(view==='home'){window.scrollTo({top:0,behavior:'smooth'});}
+ else {window.scrollTo({top:document.querySelector('.overview-title').offsetTop-12,behavior:'smooth'});}
+}
+function chooseService(id,view='detail'){
+ const found=services.find(s=>s.id===id);
+ if(found){selected=found;renderList($('search').value);renderService();setView(view);}
+}
+function renderOverview(filter=''){
+ const grid=$('overviewGrid');grid.replaceChildren();
+ const filtered=services.filter(s=>(s.title+' '+s.subtitle+' '+s.intro+' '+s.tag).toLocaleLowerCase('es-MX').includes((filter||'').toLocaleLowerCase('es-MX')));
+ if(!filtered.length){const p=document.createElement('p');p.className='no-results';p.textContent='No encontramos coincidencias. Prueba con otra palabra.';grid.append(p);return;}
+ filtered.forEach((s,i)=>{
+  const card=document.createElement('article');card.className='overview-card'+(i>=5?' wide':'');
+  const desc=s.intro.length>105?s.intro.slice(0,102).trim()+'…':s.intro;
+  card.innerHTML=`<div class="overview-art" aria-hidden="true">${s.icon}</div><div class="overview-card-body"><h3>${s.title}</h3><p>${desc}</p><button class="action" type="button">▤　Cómo se hace　›</button></div>`;
+  card.querySelector('button').addEventListener('click',()=>chooseService(s.id,'detail'));
+  grid.append(card);
+ });
+}
+function syncSearch(value){
+ $('search').value=value;
+ $('homeSearch').value=value;
+ renderList(value);renderOverview(value);
+ if(value.trim()) setView('overview');
+}
+document.querySelectorAll('[data-view="overview"]').forEach(b=>b.addEventListener('click',()=>setView('overview')));
+document.querySelectorAll('[data-quick]').forEach(b=>b.addEventListener('click',()=>{
+ const key=b.dataset.quick;
+ const map={gestiones:'gestiones',estudiantes:'estudiantes',salud:'estancia',infraestructura:'infraestructura',contingencia:'contingencia'};
+ if(key==='gestiones') chooseService('gestiones','detail');
+ else if(key==='salud'){syncSearch('');chooseService('estancia','detail');}
+ else chooseService(map[key]||'contingencia','detail');
+}));
+document.querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>{
+ const lang=b.dataset.language;
+ document.querySelectorAll('.language-card').forEach(card=>card.classList.toggle('active',card.dataset.language===lang));
+ $('languageStatus').textContent='Lengua seleccionada: '+lang+'. El contenido de esta demostración permanece en español hasta contar con traducción revisada por hablantes.';
+ $('languageHeader').textContent='◎ '+lang;
+}));
+$('enterMicrosite').addEventListener('click',()=>setView('overview'));
+$('clearSearch').addEventListener('click',()=>{if($('search').value||$('homeSearch').value){$('search').value='';$('homeSearch').value='';renderList();renderOverview();setView('home');}else setView('overview');});
+$('searchBtn').addEventListener('click',()=>syncSearch($('search').value));
+$('search').addEventListener('keydown',e=>{if(e.key==='Enter')syncSearch(e.currentTarget.value)});
+$('homeSearchBtn').addEventListener('click',()=>syncSearch($('homeSearch').value));
+$('homeSearch').addEventListener('keydown',e=>{if(e.key==='Enter')syncSearch(e.currentTarget.value)});
+$('homeSearch').addEventListener('input',e=>{if(!e.target.value){$('search').value='';renderOverview();}});
+$('backHome').addEventListener('click',()=>setView('home'));
+$('languageHeader').addEventListener('click',e=>{e.preventDefault();setView('home');document.querySelector('.language-strip').scrollIntoView({behavior:'smooth'});});
+renderList();renderService();renderOverview();showSlide(0);restartSlideTimer();setView('home');
+</script></body></html>
