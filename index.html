@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pueblos indígenas de Chihuahua · Trámites y servicios</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip" href="#carousel">Saltar al contenido</a>
+
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="Gobierno del Estado de Chihuahua, inicio">
+    <img src="assets/logo.png" alt="Chihuahua · Gobierno del Estado · Juntos sí podemos">
+  </a>
+
+  <nav class="tools" aria-label="Herramientas del sitio">
+    <button type="button" class="tool" id="btnEscuchar" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.500v5h3.500L11 18.500v-13L6.500 9.500H3zm10.500-1.800v8.600a4.300 4.300 0 0 0 0-8.600zm0-3.500v1.900a8.400 8.400 0 0 1 0 12.400v1.900a10.300 10.300 0 0 0 0-16.200z" fill="currentColor"/></svg>
+      Escuchar
+    </button>
+
+    <div class="tool-wrap">
+      <button type="button" class="tool" id="btnAcc" aria-expanded="false" aria-controls="panelAcc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.500" fill="none" stroke="currentColor" stroke-width="1.800"/><circle cx="12" cy="6.800" r="1.700" fill="currentColor"/><path d="M6.500 9.500c3.500 1 7.500 1 11 0M12 10v4m0 0l-2.500 4.500M12 14l2.500 4.500" fill="none" stroke="currentColor" stroke-width="1.900" stroke-linecap="round"/></svg>
+        Accesibilidad
+      </button>
+      <div class="panel" id="panelAcc" role="dialog" aria-label="Opciones de accesibilidad" hidden>
+        <label class="opt"><input type="checkbox" id="optContraste"> Alto contraste</label>
+        <label class="opt"><input type="checkbox" id="optMovimiento"> Detener movimiento</label>
+        <div class="opt opt--size">
+          <span>Tamaño del texto</span>
+          <span class="btns">
+            <button type="button" id="txtMenos" aria-label="Reducir texto">A−</button>
+            <button type="button" id="txtReset" aria-label="Tamaño normal">A</button>
+            <button type="button" id="txtMas" aria-label="Aumentar texto">A+</button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="tool" id="btnAyuda">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.500" fill="currentColor"/><path d="M9.200 9.400a2.900 2.900 0 1 1 4.300 2.500c-.9.500-1.500 1-1.500 2" fill="none" stroke="#012e72" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r="1.200" fill="#012e72"/></svg>
+      Ayuda
+    </button>
+
+    <label class="lang-select">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.500" fill="none" stroke="currentColor" stroke-width="1.600"/><path d="M2.500 12h19M12 2.500c3 3 3 16 0 19M12 2.500c-3 3-3 16 0 19" fill="none" stroke="currentColor" stroke-width="1.600"/></svg>
+      <span class="sr-only">Idioma</span>
+      <select id="selIdioma"></select>
+      <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </label>
+  </nav>
+</header>
+
+<main>
+  <section class="carousel" id="carousel" role="region" aria-roledescription="carrusel"
+           aria-label="Los 5 pueblos indígenas de Chihuahua">
+    <div class="viewport" id="viewport" tabindex="0"></div>
+
+    <button type="button" class="nav nav--prev" id="btnPrev" aria-label="Pueblo anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.500 5l-7 7 7 7"/></svg>
+    </button>
+    <button type="button" class="nav nav--next" id="btnNext" aria-label="Pueblo siguiente">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.500 5l7 7-7 7"/></svg>
+    </button>
+
+    <div class="dots" id="dots" role="tablist" aria-label="Seleccionar pueblo"></div>
+    <button type="button" class="playpause" id="btnPlay" aria-label="Pausar rotación automática">Pausar</button>
+    <p class="sr-only" id="liveStatus" aria-live="polite"></p>
+  </section>
+
+  <section class="thumbs-wrap" aria-label="Pueblos indígenas">
+    <button type="button" class="thumbs-nav" id="thumbPrev" aria-label="Pueblo anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l-8 8 8 8"/></svg>
+    </button>
+    <ul class="thumbs" id="thumbs"></ul>
+    <button type="button" class="thumbs-nav" id="thumbNext" aria-label="Pueblo siguiente">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
+    </button>
+  </section>
+
+  <section class="quick" id="quick" aria-label="Accesos rápidos"></section>
+
+  <nav class="langbar" id="langbar" aria-label="Información por lengua"></nav>
+</main>
+
+<dialog id="dlgAyuda" class="help">
+  <h2>¿Cómo usar este sitio?</h2>
+  <ul>
+    <li>Usa las flechas, los puntos o las miniaturas para ver cada pueblo; en el teclado, ← y →.</li>
+    <li>Presiona el botón con el altavoz para escuchar el mensaje del pueblo que estás viendo.</li>
+    <li>Con «Entrar al micrositio» consultas los trámites y servicios de ese pueblo.</li>
+    <li>En «Accesibilidad» puedes aumentar el texto, activar alto contraste o detener el movimiento.</li>
+  </ul>
+  <form method="dialog"><button class="help__close">Entendido</button></form>
+</dialog>
+
+<script src="data/pueblos.js"></script>
+<script src="js/carousel.js"></script>
+</body>
+</html>
